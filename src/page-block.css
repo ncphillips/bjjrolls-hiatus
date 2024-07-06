@@ -1,0 +1,8 @@
+/**
+ * Page Block
+ */
+@layer components {
+  .page-block {
+    @apply flex flex-col block w-full p-4 md:max-w-7xl md:mx-auto;
+  }
+}

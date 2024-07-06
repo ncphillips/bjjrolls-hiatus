@@ -1,0 +1,28 @@
+/**
+* Headings
+*/
+@layer components {
+  .heading {
+    @apply font-bold text-2xl tracking-tight;
+  }
+
+  .heading.sm {
+    @apply text-xl;
+  }
+
+  .heading.md {
+    /*  */
+  }
+
+  .heading.lg {
+    @apply text-3xl;
+  }
+
+  .heading.xl {
+    @apply text-4xl;
+  }
+
+  .heading.xxl {
+    @apply text-5xl;
+  }
+}

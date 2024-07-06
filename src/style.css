@@ -1,0 +1,8 @@
+@import "button.css";
+@import "heading.css";
+@import "link.css";
+@import "page-block.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

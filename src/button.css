@@ -1,0 +1,49 @@
+/**
+ * Button Component Layers
+ */
+@layer components {
+  .btn {
+    @apply rounded-md border text-center block;
+  }
+
+  .btn.sm {
+    @apply px-3 py-1 text-sm;
+  }
+
+  .btn.md {
+    @apply px-4 py-1 text-base;
+  }
+
+  .btn.lg {
+    @apply px-5 py-2 text-lg;
+  }
+
+  .btn.xl {
+    @apply px-6 py-3 text-xl;
+  }
+
+  .btn.xxl {
+    @apply px-7 py-4 text-2xl;
+  }
+
+  .btn.primary {
+    @apply text-white bg-black border-black hover:bg-gray-600 hover:border-gray-600 active:bg-gray-700 active:border-gray-700;
+  }
+
+  .btn.secondary {
+    @apply text-black bg-white border-black hover:bg-gray-100 active:bg-gray-200;
+  }
+
+  .btn.ghost {
+    @apply flex justify-center items-center text-black border-transparent underline;
+  }
+
+  .btn.danger {
+    @apply text-white bg-red-700 border border-red-950 hover:bg-red-800 active:bg-red-900;
+  }
+
+  .btn.disabled {
+    @apply pointer-events-none;
+  }
+
+}

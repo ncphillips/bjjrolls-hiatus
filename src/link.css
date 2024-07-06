@@ -1,0 +1,9 @@
+/**
+ * Links
+ */
+@layer components {
+  .link {
+    @apply underline decoration-[0.75px];
+  }
+
+}
